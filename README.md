@@ -38,7 +38,7 @@ Here you can find out how exactly different layers are stored inside docker
 ]
 ```
 
-### Case 2 - low level librareis (only musl dependency)
+### Case 2 - low level libraries (only musl dependency)
 | Image a | Image b | Image c |
 | ------- | ------- | ------- |
 | zlib    | busybox | libuuid |
