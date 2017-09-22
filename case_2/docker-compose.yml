@@ -1,0 +1,20 @@
+version: "3"
+services:
+  service_a:
+    image: case_2.image_a
+    build:
+      context: context_a
+      dockerfile: Dockerfile
+
+  service_b:
+    image: case_2.image_b
+    build:
+      context: context_b
+      dockerfile: Dockerfile
+
+  service_c:
+    image: case_2.image_c
+    build:
+      context: context_c
+      dockerfile: Dockerfile
+
