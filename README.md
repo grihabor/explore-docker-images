@@ -48,12 +48,30 @@ Here you can find out how exactly different layers are stored inside docker
 `docker image inspect` output:  
 ##### Image a
 ```json
+"Layers": [
+    "sha256:5bef08742407efd622d243692b79ba0055383bbce12900324f75e56f589aedb0",
+    "sha256:ba3e421a8f34a8edba048d89d26b09bae90a8fdd2522f84567b9fd4d4bdb9490",
+    "sha256:89c7a1fbe03051d9cfd20c4cced3fdf732fc1bbd474676beaa79a9e8a2a17807",
+    "sha256:b042d42f2d1b97ed65f41ac9560906f72fc47d7391f5a12579cb3acb302aeda3"
+]
 ```
 ##### Image b
 ```json
+"Layers": [
+    "sha256:5bef08742407efd622d243692b79ba0055383bbce12900324f75e56f589aedb0",
+    "sha256:ba3e421a8f34a8edba048d89d26b09bae90a8fdd2522f84567b9fd4d4bdb9490",
+    "sha256:f7a179d3590899d1bf4f46ee18c7f5b10d0cafcfda71356e91bfbd44831b6684",
+    "sha256:3e8fe11020c5d8e157825b563542363dc163be334ff16e648b5a0335abb60b43"
+]
 ```
 ##### Image c
 ```json
+"Layers": [
+    "sha256:5bef08742407efd622d243692b79ba0055383bbce12900324f75e56f589aedb0",
+    "sha256:ba3e421a8f34a8edba048d89d26b09bae90a8fdd2522f84567b9fd4d4bdb9490",
+    "sha256:4c368783bda034c184cd834ca7d333d0402606a5bf5509fee86e7378b0e08c7e",
+    "sha256:d4dd70bd4ed42c191162e8e0ec41974b1de44f4e06b042cc7a038856ade107a6"
+]
 ```
 
 
